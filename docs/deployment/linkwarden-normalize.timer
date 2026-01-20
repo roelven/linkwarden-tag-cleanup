@@ -1,0 +1,11 @@
+[Unit]
+Description=Run Linkwarden tag normalization every 5 minutes
+Requires=linkwarden-normalize.service
+
+[Timer]
+OnBootSec=5min
+OnUnitActiveSec=5min
+Persistent=true
+
+[Install]
+WantedBy=timers.target

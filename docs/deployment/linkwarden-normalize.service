@@ -1,0 +1,21 @@
+[Unit]
+Description=Linkwarden Tag Normalization Service
+After=network.target
+
+[Service]
+Type=oneshot
+User=YOUR_USERNAME
+WorkingDirectory=/path/to/linkwarden-cleanup
+ExecStart=/path/to/linkwarden-cleanup/run_normalization.sh
+
+# Security hardening
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/path/to/linkwarden-cleanup
+
+# Logging
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=linkwarden-normalize

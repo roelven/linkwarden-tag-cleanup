@@ -1,0 +1,39 @@
+# Custom Junk Tags Blocklist
+# Add one tag per line (case-insensitive)
+# Lines starting with # are comments
+
+# Common verbs that are too generic
+avoid
+feel
+sign
+read
+view
+click
+get
+make
+
+# Generic UI/navigation words
+sign up
+signup
+login
+log in
+sign in
+click here
+more
+less
+back
+next
+home
+
+# Vague single words
+room
+thing
+stuff
+item
+place
+sea
+men
+women
+people
+
+# Add your own custom junk tags below:

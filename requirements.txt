@@ -1,0 +1,2 @@
+# Python dependencies for Linkwarden tag cleanup tools
+requests>=2.28.0

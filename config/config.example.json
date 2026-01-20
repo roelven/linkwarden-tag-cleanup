@@ -1,0 +1,31 @@
+{
+  "api_url": "https://linkwarden.w22.io/api/v1",
+  "token": "YOUR_API_TOKEN_HERE",
+  "low_use_threshold": 3,
+  "similarity_threshold": 0.85,
+  "normalization_lookback_minutes": 15,
+
+  "custom_acronyms": [
+    "AI",
+    "API",
+    "LLM",
+    "ML",
+    "UI",
+    "UX"
+  ],
+
+  "custom_semantic_groups": {
+    "AI": ["ai", "artificial intelligence", "machine learning", "ml", "llm", "llms", "deep learning"],
+    "Technology": ["technology", "tech", "technical"],
+    "Product": ["product", "products"],
+    "Business": ["business", "company", "enterprise"],
+    "Design": ["design", "designer", "designers"],
+    "Development": ["development", "developer", "dev", "developers"],
+    "Data": ["data", "database", "databases", "analytics"],
+    "Security": ["security", "cybersecurity", "privacy"],
+    "Internet": ["network", "networking", "internet"],
+    "Software": ["software", "application", "app", "applications", "apps"]
+  },
+
+  "notes": "Copy this file to config.json and fill in your API token"
+}
