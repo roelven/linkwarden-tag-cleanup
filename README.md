@@ -32,8 +32,8 @@ This toolkit provides four complementary tools:
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/linkwarden-cleanup.git
-cd linkwarden-cleanup
+git clone https://github.com/roelven/linkwarden-tag-cleanup.git
+cd linkwarden-tag-cleanup
 
 # Install dependencies
 pip3 install -r requirements.txt
